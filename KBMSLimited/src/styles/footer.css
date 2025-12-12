@@ -1,0 +1,167 @@
+/* ========== FOOTER HERO IMAGE ========== */
+.footer-hero {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-hero video {
+  width: 50%;
+  max-width: 1100px;
+  border-radius: 78px;
+  object-fit: cover;
+}
+
+
+/* ========== MAIN FOOTER ========== */
+.footer {
+  background: #0B346C;
+  color: white;
+  padding-top: 0;
+}
+
+.footer-main {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+/* LOGO */
+.footer-logo img {
+  width: 150px;
+  margin: 0 auto 40px;
+}
+
+
+/* GRID LAYOUT */
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-contact,
+.footer-nav,
+.footer-socials {
+  flex: 1;
+}
+
+/* HEADINGS */
+.footer-contact h4,
+.footer-nav h4,
+.footer-socials h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+/* CONTACT ITEMS */
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+/* Google Maps Button */
+.footer-map-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-map-btn:hover {
+  background: white;
+  color: #0B346C;
+}
+
+
+/* NAV LINKS */
+.footer-nav a {
+  display: block;
+  color: white;
+  opacity: 0.9;
+  text-decoration: none;
+  margin-bottom: 6px;
+  transition: 0.25s ease;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  transition: 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+
+
+/* DIVIDER */
+.footer-divider {
+  border: none;
+  margin: 40px auto;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.4);
+  max-width: 90%;
+}
+
+
+/* COPYRIGHT */
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.footer-copy a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .footer-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-contact,
+  .footer-nav,
+  .footer-socials {
+    text-align: center;
+  }
+
+  .footer-nav a {
+    display: inline-block;
+    margin: 4px 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}

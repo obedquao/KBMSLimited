@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 80px 150px ;
+  background: #ffffff;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+/* LEFT SIDE ----------------------------------- */
+
+.contact-subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  color: #5a5a5a;
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  color: #141414;
+}
+
+.contact-desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 22px;
+  height: 22px;
+  color: #0b346c;
+}
+
+.contact-phone-list p {
+  margin: 0;
+  font-size: 15px;
+  color: #222;
+}
+
+.contact-email {
+  color: #0b346c;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.contact-btn {
+  margin-top: 20px;
+  background: #0b346c;
+  color: #fff;
+  padding: 12px 32px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 30%
+
+}
+
+.contact-btn:hover {
+  background: white;
+  color: #0b346c;
+ border: 1px solid #0b346c;
+}
+
+/* MAP ------------------------------------------ */
+
+.contact-map iframe {
+  width: 100%;
+  height: 380px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* RESPONSIVE ----------------------------------- */
+
+@media (max-width: 900px) {
+  .contact-section {
+    grid-template-columns: 1fr;
+    padding: 60px 30px;
+  }
+
+  .contact-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-section {
+    padding: 50px 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+}

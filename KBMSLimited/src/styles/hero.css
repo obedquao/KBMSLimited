@@ -1,0 +1,155 @@
+#hero{
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    padding: 0;
+}
+/* HERO CONTAINER */
+.slider-container {
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* SLIDES */
+.slides-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.9s ease;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* OVERLAY TEXT BOX — EXACT BROMGROVE STYLE */
+.slider-overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 55%; /* wide like screenshot */
+  max-width: 600px;
+  padding: 45px 55px;
+  background: rgba(0, 0, 0, 0.35); /* darker + more professional */
+  backdrop-filter: blur(2px);
+  color: #fff;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.4;
+  z-index: 20;
+}
+
+/* DOT INDICATORS */
+.slider-dots {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  z-index: 30;
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 6px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.6);
+  transition: 0.3s ease;
+}
+
+.dot.active {
+  background: #f5b041; /* gold like screenshot */
+}
+
+.dot:hover {
+  background: white;
+}
+
+/* About Section */
+
+
+.Hero-about-container {
+  padding: 40px 80px;
+  background: rgb(226, 226, 226);
+  max-width: 1400px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: flex-start;
+  
+}
+
+.herologo {
+    padding-top: 20px;
+    align-self: center;
+    height: 100px;
+    width: auto;
+  
+}
+.Hero-text-button
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.Hero-about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  align-self: flex-start;
+  text-align: justify;
+}
+.Hero-about-button{
+    
+    padding: 12px 25px;
+    background-color: #0B346C; /* KBMS Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: self-end;
+    transition: background-color 0.3s ease;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 900px) {
+  .slider-overlay-text {
+    width: 85%;
+    max-width: 85%;
+    font-size: 24px;
+    padding: 25px 30px;
+    top: 50%;
+  }
+
+  .slider-container {
+    height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider-overlay-text {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .slider-container {
+    height: 420px;
+  }
+}

@@ -1,0 +1,131 @@
+.imgHeaderContainer{
+    position: relative;
+  width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.introimg{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutusimg{
+     padding-top: 20px;
+    align-self: center;
+    height: 300px;
+   
+    width: auto;
+}
+
+
+/* about us info*/
+.aboutus-content-container {
+  padding: 40px 80px;
+  background: rgb(226, 226, 226);
+  max-width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: flex-start;
+  
+}
+
+
+
+.aboutus-context{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.aboutus-context-heading{
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  align-self: flex-start;
+}
+.aboutus-context-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  align-self: flex-start;
+  text-align: justify;
+}
+
+
+/* mission and vission and values info*/
+.mission-content-container {
+  padding: 40px 80px;
+ 
+  max-width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: flex-start;
+  
+}
+
+
+
+.mission-context{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.mission-context-heading{
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  align-self: flex-start;
+}
+.mission-context-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  align-self: flex-start;
+  text-align: justify;
+}
+
+
+/*values*/
+.values-container {
+  padding: 40px 80px;
+ 
+  max-width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: flex-start;
+  
+}
+
+.values-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  align-self: flex-start;
+  text-align: justify;
+}
+.values-text {
+  margin: 0;
+  padding: 0;
+}
+.values-text li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.values-text span{
+    font-weight: bold;
+    color: black;
+}
