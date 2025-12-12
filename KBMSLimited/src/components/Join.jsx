@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import emailanimation from "../lottie/email.json";
-import linkedInanimation from "../lottie/linkedin.json";
+import linkedInanimation from "../lottie/linkedIn.json";
 import "../styles/join.css";
 
 function Join() {
