@@ -1,12 +1,12 @@
-import Navbar from "./components/Navbar."
-import Hero from "./components/Hero"
-import AboutUs from "./components/AboutUs"
-import ServicesPage from "./components/Services"
-import Products from "./components/Products"
-import Team from "./components/OurTeam"
-import Contact from "./components/Contact"
-import Join from "./components/Join"
-import Footer from "./components/Footer"
+import Navbar from "./components/Navbar.jsx"
+import Hero from "./components/Hero.jsx"
+import AboutUs from "./components/AboutUs.jsx"
+import ServicesPage from "./components/Services.jsx"
+import Products from "./components/Products.jsx"
+import Team from "./components/OurTeam.jsx"
+import Contact from "./components/Contact.jsx"
+import Join from "./components/Join.jsx"
+import Footer from "./components/Footer.jsx"
 
 function App() {
   
