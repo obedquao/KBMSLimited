@@ -41,10 +41,49 @@
 .nav-links a:hover {
   color: #E03A2B; /* KBMS Red */
 }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 26px;
+  height: 3px;
+  background-color: #ffffff;
+  transition: 0.3s ease;
+}
+
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
   .nav-links {
-    display: none; /* You can request a mobile menu later */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #0B346C;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem;
   }
 }

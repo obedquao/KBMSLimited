@@ -1,7 +1,9 @@
-
+import { useState } from "react";
 import "../styles/navbar.css";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -9,13 +11,23 @@ const Navbar = () => {
           <img src="/logo.png" alt="KBMS Logo" className="logo-img" />
         </div>
 
-        <ul className="nav-links">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#aboutus">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#team">Our Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+        {/* Hamburger */}
+        <div
+          className={`hamburger ${menuOpen ? "active" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+          <li><a href="#hero" onClick={() => setMenuOpen(false)}>Home</a></li>
+          <li><a href="#aboutus" onClick={() => setMenuOpen(false)}>About</a></li>
+          <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
+          <li><a href="#products" onClick={() => setMenuOpen(false)}>Products</a></li>
+          <li><a href="#team" onClick={() => setMenuOpen(false)}>Our Team</a></li>
+          <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
         </ul>
       </div>
     </nav>
