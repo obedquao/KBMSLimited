@@ -67,8 +67,16 @@ export default function ServicesPage() {
     },
   ];
 
-  const itemsPerView = 4;
-  const maxIndex = Math.max(0, services.length - itemsPerView);
+  const getItemsPerView = () => {
+  if (window.innerWidth <= 480) return 1;
+  if (window.innerWidth <= 768) return 2;
+  if (window.innerWidth <= 1200) return 3;
+  return 4;
+};
+
+const [itemsPerView, setItemsPerView] = useState(getItemsPerView());
+
+  const maxIndex = services.length - itemsPerView;
 
   const handleNext = () => {
     if (currentIndex < maxIndex) {
@@ -83,6 +91,33 @@ export default function ServicesPage() {
   };
 
   const visibleServices = services.slice(currentIndex, currentIndex + itemsPerView);
+  React.useEffect(() => {
+  const handleResize = () => {
+    setItemsPerView(getItemsPerView());
+    setCurrentIndex(0); // reset safely
+  };
+
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
+const [touchStartX, setTouchStartX] = useState(null);
+
+const handleTouchStart = (e) => {
+  setTouchStartX(e.touches[0].clientX);
+};
+
+const handleTouchEnd = (e) => {
+  if (touchStartX === null) return;
+
+  const touchEndX = e.changedTouches[0].clientX;
+  const diff = touchStartX - touchEndX;
+
+  if (diff > 50) handleNext();     // swipe left
+  if (diff < -50) handlePrev();    // swipe right
+
+  setTouchStartX(null);
+};
 
   return (
     <div className="services-page" id="services">
@@ -92,7 +127,9 @@ export default function ServicesPage() {
         <div className="header-line"></div>
       </div>
 
-      <div className="services-carousel-container">
+      <div className="services-carousel-container"
+      onTouchStart={handleTouchStart}
+  onTouchEnd={handleTouchEnd}>
         <button
           className={`carousel-arrow left-arrow ${currentIndex === 0 ? 'disabled' : ''}`}
           onClick={handlePrev}

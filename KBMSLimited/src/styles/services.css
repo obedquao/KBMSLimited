@@ -284,14 +284,14 @@
   /* ===== MOBILE CTA BUTTON ===== */
   .know-more {
     margin-top: auto;
-    padding: 14px 16px;
+    padding: 14px 12px;
     font-size: 14px;
     border-radius: 6px;
     background-color: #0099cc;
     color: #ffffff;
     text-align: center;
     border: none;
-    width: 100%;
+    width: 90%;
   }
 
   /* ===== CAROUSEL ARROWS ===== */
