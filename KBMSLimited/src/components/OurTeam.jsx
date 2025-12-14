@@ -4,7 +4,7 @@ import "../styles/team.css";
 
 export default function Team() {
   const teamMembers = [
-    { name: "Kenneth Dankwa-Smith", role: "Investor & CEO", photo: "/images/team/Smith.jpeg" },
+    { name: "Kenneth Dankwa-Smith", role: "Investor", photo: "/images/team/Smith.jpeg" },
     { name: "Redeemer Domie", role: "General Manager", photo: "/images/team/Domie.jpeg" },
     { name: "Mary Darkwah", role: "Legal Partner", photo: "/images/team/Mary Darkwah.jpeg" },
     { name: "Jerry John Mensah", role: "Public Relations Officer", photo: "/images/team/Jerry John Mensah.jpeg" },

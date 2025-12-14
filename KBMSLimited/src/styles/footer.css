@@ -165,3 +165,82 @@
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+
+  /* ===== FOOTER HERO VIDEO ===== */
+  .footer-hero {
+    padding: 20px 0;
+  }
+
+  .footer-hero video {
+    width: 90%;
+    border-radius: 24px;
+  }
+
+  /* ===== MAIN FOOTER ===== */
+  .footer-main {
+    padding: 40px 20px;
+  }
+
+  /* LOGO */
+  .footer-logo img {
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  /* ===== GRID STACK ===== */
+  .footer-grid {
+    gap: 30px;
+  }
+
+  .footer-contact,
+  .footer-nav,
+  .footer-socials {
+    text-align: center;
+  }
+
+  /* ===== HEADINGS ===== */
+  .footer-contact h4,
+  .footer-nav h4,
+  .footer-socials h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  /* ===== CONTACT ITEMS ===== */
+  .footer-item {
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  /* MAP BUTTON */
+  .footer-map-btn {
+    font-size: 13px;
+    padding: 8px 16px;
+    margin-top: 15px;
+  }
+
+  /* ===== NAV LINKS ===== */
+  .footer-nav a {
+    font-size: 14px;
+    margin: 6px 8px;
+  }
+
+  /* ===== SOCIAL ICONS ===== */
+  .social-icons img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* ===== DIVIDER ===== */
+  .footer-divider {
+    margin: 30px auto;
+  }
+
+  /* ===== COPYRIGHT ===== */
+  .footer-copy {
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+}
