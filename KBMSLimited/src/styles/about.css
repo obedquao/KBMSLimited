@@ -129,3 +129,65 @@
     font-weight: bold;
     color: black;
 }
+
+@media (max-width: 768px) {
+
+  /* ===== HEADER IMAGE ===== */
+  .imgHeaderContainer {
+    height: 280px;
+  }
+
+  .slider-overlay-text {
+    font-size: 26px;
+    padding: 10px 20px;
+  }
+
+  /* ===== SHARED CONTAINERS ===== */
+  .aboutus-content-container,
+  .mission-content-container,
+  .values-container {
+    padding: 30px 20px;
+    height: auto;                 /* CRITICAL FIX */
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  /* ===== TEXT BLOCKS ===== */
+  .aboutus-context,
+  .mission-context {
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutus-context-heading,
+  .mission-context-heading {
+    font-size: 24px;
+    align-self: center;
+  }
+
+  .aboutus-context-text,
+  .mission-context-text {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left; /* better readability on mobile */
+  }
+
+  /* ===== IMAGES ===== */
+  .aboutusimg {
+    height: auto;
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  /* ===== VALUES ===== */
+  .values-text {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .values-text li {
+    margin-bottom: 10px;
+  }
+}
