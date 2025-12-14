@@ -10,6 +10,7 @@
   height: 500px;
   overflow: hidden;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 /* SLIDES */
