@@ -5,6 +5,10 @@ import linkedInanimation from "../lottie/linkedIn.json";
 import "../styles/join.css";
 
 function Join() {
+const handleEmailClick = () => {
+    window.location.href = "mailto:info@kbmslimited.com";
+  };
+
   return (
     <section id="join" className="join-section">
 
@@ -98,6 +102,51 @@ function Join() {
 
           <h3>Send us your resume</h3>
           <p>Even without a current opening, we’d love to keep your info on file.</p>
+        </motion.div>
+         {/* INVESTOR */}
+        <motion.div
+          className="join-box"
+          onClick={handleEmailClick}
+          variants={{
+            hidden: { opacity: 0, y: 30 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          whileHover={{ scale: 1.02 }}
+        >
+          <Lottie
+            animationData={emailanimation}
+            loop
+            autoPlay
+            className="join-icon"
+          />
+
+          <h3>Become an Investor</h3>
+          <p>
+            Explore strategic investment opportunities and grow with KBMS Limited.
+          </p>
+        </motion.div>
+
+        {/* PARTNER */}
+        <motion.div
+          className="join-box"
+          onClick={handleEmailClick}
+          variants={{
+            hidden: { opacity: 0, y: 30 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          whileHover={{ scale: 1.02 }}
+        >
+          <Lottie
+            animationData={emailanimation}
+            loop
+            autoPlay
+            className="join-icon"
+          />
+
+          <h3>Become a Partner</h3>
+          <p>
+            Collaborate with us to deliver innovative solutions across industries.
+          </p>
         </motion.div>
       </motion.div>
     </section>

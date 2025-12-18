@@ -104,8 +104,16 @@
 
 
 /* SOCIAL ICONS */
+.footer-socials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0px;
+}
 .social-icons {
   display: flex;
+  
   gap: 12px;
   margin-top: 10px;
 }

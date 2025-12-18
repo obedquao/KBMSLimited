@@ -22,7 +22,7 @@
 /* about us info*/
 .aboutus-content-container {
   padding: 40px 80px;
-  background: rgb(226, 226, 226);
+  background: #0B346C;
   max-width: 1400px;
   height: 300px;
   margin: 0 auto;
@@ -45,13 +45,13 @@
 .aboutus-context-heading{
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: black;
   align-self: flex-start;
 }
 .aboutus-context-text {
   font-size: 16px;
   line-height: 1.8;
-  color: #555;
+  color: white;
   align-self: flex-start;
   text-align: justify;
 }
@@ -83,7 +83,7 @@
 .mission-context-heading{
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: #0B346C;
   align-self: flex-start;
 }
 .mission-context-text {
@@ -93,6 +93,44 @@
   align-self: flex-start;
   text-align: justify;
 }
+
+/* vision*/
+.vision-content-container {
+  padding: 40px 80px;
+ background-color: #d3d3d3;
+  max-width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: flex-start;
+  
+}
+
+
+
+.vision-context{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.vision-context-heading{
+  font-size: 28px;
+  font-weight: bold;
+  color: #0B346C;
+  align-self: flex-start;
+}
+.vision-context-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  align-self: flex-start;
+  text-align: justify;
+}
+
 
 
 /*values*/
@@ -107,6 +145,12 @@
   gap: 100px;
   align-items: flex-start;
   
+}
+.values-context-heading{
+  font-size: 28px;
+  font-weight: bold;
+  color: #0B346C;
+  align-self: flex-start;
 }
 
 .values-text {
@@ -144,7 +188,7 @@
 
   /* ===== SHARED CONTAINERS ===== */
   .aboutus-content-container,
-  .mission-content-container,
+  .mission-content-container,.vision-content-container,
   .values-container {
     padding: 30px 20px;
     height: auto;                 /* CRITICAL FIX */
@@ -155,19 +199,19 @@
 
   /* ===== TEXT BLOCKS ===== */
   .aboutus-context,
-  .mission-context {
+  .mission-context, .vision-context {
     align-items: center;
     text-align: center;
   }
 
   .aboutus-context-heading,
-  .mission-context-heading {
+  .mission-context-heading, .vision-context-heading {
     font-size: 24px;
     align-self: center;
   }
 
   .aboutus-context-text,
-  .mission-context-text {
+  .mission-context-text, .vision-context-text {
     font-size: 15px;
     line-height: 1.7;
     text-align: left; /* better readability on mobile */

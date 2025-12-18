@@ -25,7 +25,7 @@ export default function ServicesPage() {
     },
     {
       id: 3,
-      title: 'Legal Services',
+      title: 'Regulatory and Compliance Support',
       image: '/images/services/legal.webp',
       description:
         'From business registration to contract preparation, due diligence, and compliance support — we help you navigate corporate legal requirements with ease.',

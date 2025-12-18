@@ -37,7 +37,7 @@ function Hero() {
 
       {/* Semi-transparent overlay text box */}
       <div className="slider-overlay-text">
-        Your Trusted Partner in Business, HR, Legal and Logistics Solutions.
+        Your Trusted Partner in Business, Procurement, HR, E-commerce, Shipping & Logistics Solutions 
       </div>
 
       {/* Dots */}
@@ -61,9 +61,10 @@ function Hero() {
              <p className="Hero-about-text">
                 KBMS Limited is a dynamic management and consultancy 
                 company committed to providing reliable, professional, 
-                and efficient solutions to businesses and individuals. Our expertise spans 
-                Business Consulting, HR Advisory, Legal Documentation Assistance, Office & Property
-                 Management, E-commerce, Logistics, and Visa Processing Support.
+                and efficient solutions to businesses and individuals.Our Business expertise spans 
+                Business Consulting,  HR Consulting, Regulatory and Compliance Support, Office Space Solutions & 
+                Property Management,  Financial Management & Due Diligence Services, Concierge Services, Assistance 
+                with Navigating Business Regulations and Visa Procurement and E-commerce,  Shipping & Logistics.
 
                 We pride ourselves on delivering personalized services tailored to meet the 
                 unique needs of every client — ensuring seamless operations, strategic growth, and

@@ -11,7 +11,7 @@ export default function Team() {
     { name: "Joshua Edem Aflakpui", role: "Social Media and Advertising Manager", photo: "/images/team/Joshua Edem Aflakpui.jpeg" },
     { name: "Douglas Asare", role: "Finance Manager", photo: "/images/team/Douglas Asare.jpeg" },
     { name: "Francis Pakyie", role: "PA to the CEO", photo: "/images/team/Francis Pakyie.jpeg" },
-    { name: "Paa Kwesi Wallace", role: "Freelance Graphic Designer", photo: "/images/team/Paa Kwesi Wallace.jpeg" },
+    { name: "Lord Paa Kwesi Wallace", role: "Freelance Graphic Designer", photo: "/images/team/Paa Kwesi Wallace.jpeg" },
     { name: "Derrick Karikari", role: "Procurement Officer", photo: "/images/team/Derrick Karikari.jpeg" },
     { name: "David Siaw Frimpong", role: "Head of Operations", photo: "/images/team/David Siaw Frimpong.jpeg" },
     { name: "Cyrus Sarpong", role: "Business Development Manager", photo: "/images/team/Cyrus Sarpong.jpeg" },

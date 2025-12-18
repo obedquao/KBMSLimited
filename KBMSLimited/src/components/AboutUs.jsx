@@ -21,7 +21,7 @@ function AboutUs() {
             <div className="aboutus-context">
               <h2 className="aboutus-context-heading">About KBMS Limited</h2>
               <p className="aboutus-context-text">
-                  Bromgrove is a multi-disciplinary engineering organization with unparalleled experience and expertise in the fields of supply, logistics, construction and engineering. We have implemented numerous projects for government agencies, military organizations and public and private investors across the United States, United Kingdom, Middle East, South West Asia and Africa. Our clients continue to rely on us to deliver their projects successfully.
+                  KBMS Limited is a multi-disciplinary engineering organization with unparalleled experience and expertise in the fields of supply, logistics, construction and engineering. We have implemented numerous projects for government agencies, military organizations and public and private investors across the United States, United Kingdom, Middle East, South West Asia and Africa. Our clients continue to rely on us to deliver their projects successfully.
               </p>
           
             </div>
@@ -61,11 +61,13 @@ function AboutUs() {
             
          
         </div>
-        <div className="aboutus-content-container">
+
+        {/* vision values Section */}
+        <div className="vision-content-container">
          
-            <div className="aboutus-context">
-              <h2 className="aboutus-context-heading">Our Vission</h2>
-              <p className="aboutus-context-text">
+            <div className="vision-context">
+              <h2 className="vision-context-heading">Our Vision</h2>
+              <p className="vision-context-text">
                   To become Ghana’s most trusted and 
                   innovative one-stop business solutions 
                   provider, recognized across Africa and 
@@ -88,7 +90,7 @@ function AboutUs() {
             </div>
          
             <div className="aboutus-context">
-              <h2 className="aboutus-context-heading">Our Values</h2>
+              <h2 className="values-context-heading">Our Values</h2>
 
               <ul className="values-text">
                 <li><p><span>Integrity</span>: We operate with honesty and transparency</p></li>

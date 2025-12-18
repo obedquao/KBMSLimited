@@ -56,10 +56,12 @@ export default function Footer() {
             <h4>Follow Our socials</h4>
 
             <div className="social-icons">
-              <a href="#"><img src="/icons/tiktok.png" alt="tiktok" /></a>
-              <a href="#"><img src="/icons/facebook.png" alt="facebook" /></a>
-              <a href="#"><img src="/icons/instagram.png" alt="instagram" /></a>
+              <a href="https://www.tiktok.com/@kbms_limited"><img src="/icons/tiktok.png" alt="tiktok" /></a>
+              <a href="https://m.facebook.com/kbmslimited/"><img src="/icons/facebook.png" alt="facebook" /></a>
+              <a href="https://www.instagram.com/kbms_limited/"><img src="/icons/instagram.png" alt="instagram" /></a>
               <a href="https://wa.link/oc34li"><img src="/icons/whatsapp.png" alt="whatsapp" /></a>
+              <a href="https://x.com/kbms_limited"><img src="/icons/twitter.png" alt="x" /></a>
+              <a href="#"><img src="/icons/linkedin.png" alt="linkedin" /></a>
             </div>
           </div>
         </div>
