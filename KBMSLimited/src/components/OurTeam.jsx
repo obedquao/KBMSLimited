@@ -6,7 +6,7 @@ export default function Team() {
   const teamMembers = [
     { name: "Kenneth Dankwa-Smith", role: "Investor", photo: "/images/team/Smith.jpeg" },
     { name: "Redeemer Domie", role: "General Manager", photo: "/images/team/Domie.jpeg" },
-    { name: "Mary Darkwah", role: "Legal Partner", photo: "/images/team/Mary Darkwah.jpeg" },
+    { name: "Mary Darkwah", role: "Admnistrative Manager", photo: "/images/team/Mary Darkwah.jpeg" },
     { name: "Jerry John Mensah", role: "Public Relations Officer", photo: "/images/team/Jerry John Mensah.jpeg" },
     { name: "Joshua Edem Aflakpui", role: "Social Media and Advertising Manager", photo: "/images/team/Joshua Edem Aflakpui.jpeg" },
     { name: "Douglas Asare", role: "Finance Manager", photo: "/images/team/Douglas Asare.jpeg" },
