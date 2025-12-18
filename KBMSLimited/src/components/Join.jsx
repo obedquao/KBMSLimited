@@ -80,6 +80,7 @@ const handleEmailClick = () => {
         {/* RESUME BOX */}
         <motion.div
           className="join-box"
+          onClick={handleEmailClick}
           variants={{
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 },
