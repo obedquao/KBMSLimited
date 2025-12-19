@@ -59,16 +59,9 @@ function Hero() {
             </div>
             <div className="Hero-text-button">
              <p className="Hero-about-text">
-                KBMS Limited is a dynamic management and consultancy 
-                company committed to providing reliable, professional, 
-                and efficient solutions to businesses and individuals.Our Business expertise spans 
-                Business Consulting,  HR Consulting, Regulatory and Compliance Support, Office Space Solutions & 
-                Property Management,  Financial Management & Due Diligence Services, Concierge Services, Assistance 
-                with Navigating Business Regulations and Visa Procurement and E-commerce,  Shipping & Logistics.
-
-                We pride ourselves on delivering personalized services tailored to meet the 
-                unique needs of every client — ensuring seamless operations, strategic growth, and
-                 exceptional service delivery from start to finish.
+               KBMS Limited is a Ghana-based management and consulting firm delivering integrated business solutions that enhance efficiency, ensure compliance, and support sustainable growth.
+                We believe in simplifying businesses, strengthening operations and driving growth. <br/>
+                Our Motto is:   Every little step counts.
               </p>
               <button className="Hero-about-button" 
               onClick={() => {

@@ -68,14 +68,16 @@ function AboutUs() {
             <div className="vision-context">
               <h2 className="vision-context-heading">Our Vision</h2>
               <p className="vision-context-text">
-                  To become Ghana’s most trusted and 
-                  innovative one-stop business solutions 
-                  provider, recognized across Africa and 
-                  beyond for driving growth, enabling
-                  opportunities, and supporting
-                  businesses to thrive in a fast-changing 
-                  global economy
-                  LIMITED    
+                  KBMS Limited is a dynamic management and consultancy 
+                company committed to providing reliable, professional, 
+                and efficient solutions to businesses and individuals.Our Business expertise spans 
+                Business Consulting,  HR Consulting, Regulatory and Compliance Support, Office Space Solutions & 
+                Property Management,  Financial Management & Due Diligence Services, Concierge Services, Assistance 
+                with Navigating Business Regulations and Visa Procurement and E-commerce,  Shipping & Logistics.
+
+                We pride ourselves on delivering personalized services tailored to meet the 
+                unique needs of every client — ensuring seamless operations, strategic growth, and
+                 exceptional service delivery from start to finish.
                   </p>
           
             </div>
