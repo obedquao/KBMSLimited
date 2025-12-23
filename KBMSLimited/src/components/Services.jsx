@@ -116,7 +116,7 @@ export default function ServicesPage() {
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
                   <a href="#contact" className="know-more">
-                    Request Service →
+                    Request Service 
                   </a>
                 </div>
               </div>

@@ -21,9 +21,14 @@ function AboutUs() {
             <div className="aboutus-context">
               <h2 className="aboutus-context-heading">About KBMS Limited</h2>
               <p className="aboutus-context-text">
-                  KBMS Limited is a multi-disciplinary engineering organization with unparalleled experience and expertise in the fields of supply, logistics, construction and engineering. We have implemented numerous projects for government agencies, military organizations and public and private investors across the United States, United Kingdom, Middle East, South West Asia and Africa. Our clients continue to rely on us to deliver their projects successfully.
-              </p>
-          
+             KBMS Limited is a dynamic management and consultancy company committed to providing reliable, 
+             professional, and efficient solutions to businesses and individuals. Our expertise spans Business
+              Consulting, Regulatory and Business Compliance, Office Space & Property Management, E-commerce, Logistics,
+               and Visa Processing Support.
+ 
+              We pride ourselves on delivering personalized services tailored to meet the unique
+              needs of every client — ensuring seamless operations, strategic growth, and exceptional 
+              service delivery from start to finish.</p>
             </div>
             <div className="">
               <img src="/images/aboutkbml.jpg" alt="KBMS about us" className="aboutusimg" />
@@ -36,7 +41,7 @@ function AboutUs() {
         <div className="mission-content-container">
          
             <div className="">
-              <img src="/images/aboutkbml.jpg" alt="KBMS about us" className="aboutusimg" />
+              <img src="/images/mission.webp" alt="KBMS about us" className="aboutusimg" />
             </div>
 
             <div className="mission-context">
@@ -68,27 +73,24 @@ function AboutUs() {
             <div className="vision-context">
               <h2 className="vision-context-heading">Our Vision</h2>
               <p className="vision-context-text">
-                  KBMS Limited is a dynamic management and consultancy 
-                company committed to providing reliable, professional, 
-                and efficient solutions to businesses and individuals.Our Business expertise spans 
-                Business Consulting,  HR Consulting, Regulatory and Compliance Support, Office Space Solutions & 
-                Property Management,  Financial Management & Due Diligence Services, Concierge Services, Assistance 
-                with Navigating Business Regulations and Visa Procurement and E-commerce,  Shipping & Logistics.
-
-                We pride ourselves on delivering personalized services tailored to meet the 
-                unique needs of every client — ensuring seamless operations, strategic growth, and
-                 exceptional service delivery from start to finish.
+                  To become Ghana’s most trusted and 
+                  innovative one-stop business solutions 
+                  provider, recognized across Africa and 
+                  beyond for driving growth, enabling
+                  opportunities, and supporting
+                  businesses to thrive in a fast-changing 
+                  global economy   
                   </p>
           
             </div>
             <div className="">
-              <img src="/images/aboutkbml.jpg" alt="KBMS about us" className="aboutusimg" />
+              <img src="/images/vision.webp" alt="KBMS about us" className="aboutusimg" />
             </div>
          
         </div>
         <div className="values-container">
           <div className="">
-              <img src="/images/aboutkbml.jpg" alt="KBMS about us" className="aboutusimg" />
+              <img src="/images/values.webp" alt="KBMS about us" className="aboutusimg" />
             </div>
          
             <div className="aboutus-context">
