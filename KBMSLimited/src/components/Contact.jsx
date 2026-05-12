@@ -26,17 +26,16 @@ export default function Contact() {
         </p>
 
         {/* LOCATION */}
-        <div className="contact-item">
+        <div className="contact-item contact-location">
           <MapPin className="contact-icon" />
-          <span>Adenta</span>
+          <a href="https://share.google/Py1Q6NYR0737LNM3F">Adenta - Accra</a>
         </div>
 
         {/* PHONE NUMBERS */}
-        <div className="contact-item">
+        <div className="contact-item ">
           <Phone className="contact-icon" />
           <div className="contact-phone-list">
             <p>+233 55 398 8078</p>
-            
           </div>
         </div>
 
@@ -49,10 +48,12 @@ export default function Contact() {
         </div>
 
         {/* BUTTON */}
-        <button 
-        className="contact-btn" 
-        onClick={()=>window.location.href = 'mailto:info@kbmslimited.com'}
-        >Get In Touch</button>
+        <button
+          className="contact-btn"
+          onClick={() => (window.location.href = "mailto:info@kbmslimited.com")}
+        >
+          Get In Touch
+        </button>
       </motion.div>
 
       {/* RIGHT: MAP */}

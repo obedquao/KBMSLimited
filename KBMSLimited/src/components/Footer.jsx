@@ -31,7 +31,11 @@ export default function Footer() {
 
               <div className="footer-item">
                 <MapPin size={18} />
-                <span>Adenta</span>
+                <span>
+                  <a href="https://share.google/Py1Q6NYR0737LNM3F">
+                    Adenta - Accra
+                  </a>
+                </span>
               </div>
 
               <a
