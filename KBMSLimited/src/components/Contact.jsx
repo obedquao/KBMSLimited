@@ -65,7 +65,7 @@ export default function Contact() {
         viewport={{ once: true }}
       >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.9367335452484!2d-0.15796832590840726!3d5.722253594259775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d27bfa2a22d%3A0xf878c453716db98f!2sPosam%20Kiddie%20Star!5e0!3m2!1sen!2sgh!4v1765476366907!5m2!1sen!2sgh"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.936246791873!2d-0.15531570000000003!3d5.7223237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d006403afff%3A0x13c05fb2fcddeb7!2sK.Bennito%20Management%20Services%20LTD!5e0!3m2!1sen!2sgh!4v1778918981482!5m2!1sen!2sgh"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
